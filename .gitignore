@@ -1,0 +1,66 @@
+# Archivos de credenciales y tokens
+client_secret.json
+client_secret._original.json
+gmail_token.json
+*_token.json
+*_secret.json
+*_key.json
+*_credentials.json
+
+# Archivos de configuración con credenciales
+.env
+.env.local
+.env.production
+.env.development
+
+# Carpetas con información sensible
+credentials/
+secrets/
+keys/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entorno virtual
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
